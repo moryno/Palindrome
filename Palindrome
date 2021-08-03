@@ -1,0 +1,11 @@
+function isPalindrome(num){
+    var num = prompt("Enter number here") + ""
+    var numReverse = num.split("").reverse().join("");
+    if(num===numReverse){
+        console.log("Is Palindrome");
+    }
+    else{
+        console.log("Not a Palindrome");
+    }
+}
+isPalindrome();
